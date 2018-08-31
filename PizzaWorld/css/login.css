@@ -1,0 +1,209 @@
+body {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../img/back4.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Century Gothic';
+    color: rgb(240, 238, 238);
+    text-align: center;
+    display: none;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 50px;
+    letter-spacing: 5px;
+}
+
+h3 {
+    letter-spacing: 8px;
+}
+
+#f1 {
+    margin: auto;
+    width: 25%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    margin-left: 350px;
+    margin-top: 140px;
+    border-radius: 5px;
+}
+
+#f2 {
+    margin: auto;
+    border-radius: 5px;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    margin-right: 350px;
+    margin-top: 100px;
+}
+
+input {
+    width: 90%;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: rgb(58, 55, 55);
+}
+
+#err {
+    width: 99.5%;
+    color: black;
+    margin: auto;
+    background-color: rgba(245, 125, 136, 0.7);
+    border-color: black;
+}
+
+#err2 {
+    width: 99.5%;
+    color: black;
+    margin: auto;
+    background-color: rgba(125, 245, 125, 0.7);
+    border-color: black;
+}
+
+#b1,
+#b2 {
+    margin: auto;
+    background-color: rgba(94, 235, 94, 0.65);
+}
+
+#b1:hover,
+#b2:hover {
+    background-color: rgba(42, 194, 42, 0.9);
+}
+
+#b1:focus,
+#b2:focus {
+    background-color: rgba(43, 189, 43, 0.9);
+}
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+        body{
+          display: inherit;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          text-align: center;
+          overflow: auto;
+        }
+        #heading{
+          padding: 15px;
+        }
+        #heading h1{
+            font-size: 38px;
+            margin-top: 20px;
+        }
+        #heading h3{
+          margin: auto;
+          float: none;
+          font-size:16px;
+          margin-top: 18px;
+        }
+        #f1{
+          margin: auto;
+          padding:40px 20px 40px 20px;
+          width:75%;
+          float: none;
+          margin-top: 60px;
+        }
+        #f2{
+          margin: auto;
+          padding:40px 20px 40px 20px;
+          width:75%;
+          float: none;
+          margin-top: 100px;
+          margin-bottom: 100px;
+        }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 420px) {
+      #heading h1{
+        font-size: 56px;
+      }
+      #heading h3{
+        font-size: 22px;
+        padding-top: 10px;
+        padding: 10px 35px 10px 35px;
+      }
+      #f1,#f2{
+        width:67%;
+      }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 594px) {
+      #heading h1{
+        font-size: 60px;
+      }
+      #heading h3{
+        font-size: 26px;
+        margin: auto;
+        padding: 20px 80px 10px 80px;
+      }
+    }
+
+    @media only screen and (min-width : 739px) {
+      #heading h1{
+        font-size: 70px;
+      }
+      #heading h3{
+        font-size: 28px;
+        margin: auto;
+        padding: 40px 0px 30px 0px;
+        letter-spacing: 6px;
+      }
+      #f1,#f2{
+        width:60%;
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      #heading{
+        margin-top: 100px;
+      }
+      #f1{
+        margin: auto;
+        float: left;
+        width: 35%;
+        margin: 150px 0px 300px 100px;
+        padding: 50px;
+      }
+      #f2{
+        margin: auto;
+        float: right;
+        width: 35%;
+        margin: 150px 100px 300px 0px;
+        padding: 50px;
+      }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+      #heading{
+        margin-top: 0px;
+      }
+      #f1{
+        margin: auto;
+        float: left;
+        width: 25%;
+        margin: 100px 0px 100px 250px;
+        padding: 50px;
+      }
+      #f2{
+        margin: auto;
+        float: right;
+        width: 25%;
+        margin: 50px 250px 250px 0px;
+        padding: 50px;
+      }
+    }

@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Wheat Thin Crust",
+        "size": "Small",
+        "price": 40
+    },
+    {
+        "name": "Wheat Thin Crust",
+        "size": "Medium",
+        "price": 60
+    },
+    {
+        "name": "Wheat Thin Crust",
+        "size": "Large",
+        "price": 80
+    },
+
+
+    {
+        "name": "Fresh Pan Pizza",
+        "size": "Small",
+        "price": 30
+    },
+    {
+        "name": "Fresh Pan Pizza",
+        "size": "Medium",
+        "price": 50
+    },
+    {
+        "name": "Fresh Pan Pizza",
+        "size": "Large",
+        "price": 70
+    },
+
+
+    {
+        "name": "Cheese Brust",
+        "size": "Small",
+        "price": 60
+    },
+    {
+        "name": "Cheese Brust",
+        "size": "Medium",
+        "price": 90
+    },
+    {
+        "name": "Cheese Brust",
+        "size": "Large",
+        "price": 120
+    },
+
+
+    {
+        "name": "Classic Hand Tossted",
+        "size": "Small",
+        "price": 50
+    },
+    {
+        "name": "Classic Hand Tossted",
+        "size": "Medium",
+        "price": 80
+    },
+    {
+        "name": "Classic Hand Tossted",
+        "size": "Large",
+        "price": 100
+    }
+]
